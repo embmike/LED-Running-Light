@@ -44,6 +44,8 @@ read block post [Serial to Parallel Shifting-Out with a 74HC595](https://www.ard
 - **LED_Running_Light.ioc** : STM32CubeMX file for initialization and configuration using a graphical view
 - Core/**main.cpp** : Main file of the program
 - **LED_Application** : folder of the application classes
+- led_running_light_circuit.fzz : the circuit diagram, created using Fritzing [Fritzing](https://fritzing.org)
+- LED_Running_Light.eap : the software model in UML/SysML, created using [Enterprise Architect](https://www.sparxsystems.com/)
 
 
 ## Installation and usage
