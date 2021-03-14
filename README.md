@@ -4,7 +4,7 @@ read block post [Serial to Parallel Shifting-Out with a 74HC595](https://www.ard
 
 
 ### Running lights
-<img src="led_strip_is_runnig.gif" width="40%" height="40%" /> 
+<img src="led_strip_is_runnig.gif" width="30%" height="30%" /> 
 
 
 ### Cuircuit diagram
@@ -12,7 +12,7 @@ read block post [Serial to Parallel Shifting-Out with a 74HC595](https://www.ard
 
 
 ### Use cases
-- Press the yellow control button
+- **Press the yellow control button**
     - WHEN the yellow control button is pressed
     - AND the running light is off
     - THEN the running light begins to execute the next blinking program
@@ -20,15 +20,15 @@ read block post [Serial to Parallel Shifting-Out with a 74HC595](https://www.ard
     - ELSE the running light is on
     - THEN finish running light
     - AND switch off the green LED
- - Press the white time button
+ - **Press the white time button**
     - WHEN the time control button is pressed
     - THEN decrease the blinking frequency
     - ELSE the threshold was reached
     - THEN increase the blinking frequency
- - Move X axis of the joystick
+ - **Move X axis of the joystick**
     - WHEN the joystick is moved in the X direction
     - THEN change the PWM signal of the yellow LED accordingly
- - Move Y axis of the joystick
+ - **Move Y axis of the joystick**
     - WHEN the joystick is moved in the Y direction
     - THEN change the PWM signal of the red LED accordingly
 
@@ -43,7 +43,7 @@ read block post [Serial to Parallel Shifting-Out with a 74HC595](https://www.ard
 ## Important files
 - **LED_Running_Light.ioc** : STM32CubeMX file for initialization and configuration using a graphical view
 - Core/**main.c** : Main file of the program
-- LED_Application : folder of the application classes
+- **LED_Application** : folder of the application classes
 
 
 ## Installation and usage
