@@ -42,7 +42,7 @@ read block post [Serial to Parallel Shifting-Out with a 74HC595](https://www.ard
 
 ## Important files
 - **LED_Running_Light.ioc** : STM32CubeMX file for initialization and configuration using a graphical view
-- Core/**main.c** : Main file of the program
+- Core/**main.cpp** : Main file of the program
 - **LED_Application** : folder of the application classes
 
 
