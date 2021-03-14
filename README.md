@@ -1,4 +1,4 @@
-# LED-Runnig_Light
+# LED-Runnig-Light
 The software using a 74HC595 to drive running lights programs with LEDs. For more information about [74HC595](https://www.arduino.cc/en/uploads/Tutorial/595datasheet.pdf)
 read block post [Serial to Parallel Shifting-Out with a 74HC595](https://www.arduino.cc/en/Tutorial/Foundations/ShiftOut). The program runs on a [Nucleo STM32F302R8](https://www.st.com/en/evaluation-tools/nucleo-f302r8.html) board.
 
